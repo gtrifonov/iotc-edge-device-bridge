@@ -1,0 +1,14 @@
+{
+    "name": "iotc_edge_device_bridge",
+    "version": "0.0.20",
+    "dependencies": {
+        "azure-iot-device": "^1.7.0",
+        "azure-iot-device-http": "^1.9.9",
+        "azure-iot-device-mqtt": "^1.7.0",
+        "body-parser": "^1.19.0",
+        "crypto": "^1.0.1",
+        "express": "^4.17.0",
+        "request-promise-native": "^1.0.7",
+        "util": "^0.12.0"
+    }
+}

@@ -1,0 +1,15 @@
+FROM arm32v7/node:8-slim
+
+WORKDIR /app/
+
+COPY package*.json ./
+
+RUN npm install --production
+
+COPY app.js ./
+
+EXPOSE 3030
+
+USER node
+
+CMD ["node", "app.js"]
