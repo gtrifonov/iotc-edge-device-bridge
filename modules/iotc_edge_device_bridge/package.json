@@ -7,7 +7,7 @@
         "azure-iot-device-mqtt": "^1.7.0",
         "body-parser": "^1.19.0",
         "crypto": "^1.0.1",
-        "express": "^4.17.0",
+        "express": "^4.17.3",
         "request-promise-native": "^1.0.7",
         "util": "^0.12.0"
     }
